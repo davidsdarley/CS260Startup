@@ -37,7 +37,6 @@ Role playing games are immensely popular, and there are a multitude of useful we
 
 ### Design
 <img src="SLSheet.jpg" alt="Alt text" style="width:40%;"/>
-![Design image](SLSheet.jpg)
 
 The first and most essential goal is to make you able to access your character sheets anywhere you are. So, for our starting design we will focus on authentication, storage, and access. Interaction with the server will look like this:
 ```mermaid
