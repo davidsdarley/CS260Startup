@@ -46,9 +46,9 @@ sequenceDiagram
     actor You
     actor Website
     User->>Server: Login request;
-    User<<-Server: Auth Token, List of viewable sheets;
+    Server->>User: Auth Token, List of viewable sheets;
     User->>Server: Auth Token, Sheet Request;
-    User<<-Server: Sheet object;
+    Server->>User: Sheet object
 ```
 
 ### Key features
