@@ -32,7 +32,7 @@ Getting the actual code to just keep track of the data wouldn’t be terribly di
   - talents
   - equipment
    - equipped/dequipped
-   prioritized IN THAT ORDER
+prioritized IN THAT ORDER
  - You can access your character sheet from anywhere. 
  - Assist in Character Creation
  - calculate numbers based on stats and tiers of experience
