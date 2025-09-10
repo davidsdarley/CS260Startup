@@ -8,7 +8,7 @@ I love role playing games, and I love the Stormlight archive, so naturally I got
 I have several different stages of progress I would like to make, ordered in prioritized by what is most necessary to get a basic version working. In order I will:
  - Make a web application that can help you create your character
  - Store this information on a server
- - Support login on any device to access your sheet for use and modification.
+ - Support login on any device to access your sheets for use and modification.
 ### Secondary Goals
 After these things are working, I have the following secondary goals to work on now or after the class is over:
  - Share access to the character sheet with Game Masters and other players
@@ -26,10 +26,10 @@ After these things are working, I have the following secondary goals to work on 
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
+- [x] Proper use of Markdown
 - [x] A concise and compelling elevator pitch
 - [x] Description of key features
-- [ ] Description of how you will use each technology
+- [x] Description of how you will use each technology
 - [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
@@ -39,34 +39,36 @@ Role playing games are immensely popular, and there are a multitude of useful we
 <img src="SLSheet.jpg" alt="Alt text" style="width:40%;"/>
 ![Design image](SLSheet.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+The first and most essential goal is to make you able to access your character sheets anywhere you are. So, for our starting design we will focus on authentication, storage, and access. Interaction with the server will look like this:
 ```mermaid
 sequenceDiagram
     actor You
     actor Website
-    User->>Server: Login request;
-    Server->>User: Auth Token, List of viewable sheets;
-    User->>Server: Auth Token, Sheet Request;
-    Server->>User: Sheet object
+    User->>Server: LoginRequest(Username, Password);
+    Server->>User: AuthToken, List[viewable sheets];
+    User->>Server: Auth Token, SheetRequest(sheet);
+    Server->>User: Sheet
 ```
+Sheet modification, once you are logged in, will work almost completely on the side of the user using React, just checking your auth token before saving the changes when they are sent to the server.
+
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+The most key features will be my primary goals:
+ - Support character creation
+ - Store character sheets information on a server database
+ - Support login on any device to access your sheets for use and modification.
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Create the basic formatting and store the actual character information once the user receives it
+- **CSS** - Present the information in a visually appealing way
+- **React** - Sheet modification and interactivity
+- **Service** - Provide accesibility and authentication services
+- **DB/Login** - Store the actual current sheet information
+- **WebSocket** - Update sheets across platforms as needed
 
 ## 🚀 AWS deliverable
 
