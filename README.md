@@ -48,7 +48,7 @@ sequenceDiagram
     User->>Server: Login request;
     User<<-Server: Auth Token, List of viewable sheets;
     User->>Server: Auth Token, Sheet Request;
-    User<<-Server: Sheet object
+    User<<-Server: Sheet object;
 ```
 
 ### Key features
