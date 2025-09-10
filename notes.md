@@ -26,12 +26,12 @@ Getting the actual code to just keep track of the data wouldn’t be terribly di
 
 ## Stormlight Startup Goals:
 ### Primary
- - Display basic character info
+ - Display basic character info *prioritized IN THIS ORDER*
   - stats
   - skills
   - talents
   - equipment
-   - equipped/dequipped \t*prioritized IN THIS ORDER*
+   - equipped/dequipped 
  - You can access your character sheet from anywhere. 
  - Assist in Character Creation
  - calculate numbers based on stats and tiers of experience
