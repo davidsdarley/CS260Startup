@@ -2,7 +2,7 @@
 
 [My Notes](notes.md)
 
-I love role playing games, and I love the Stormlight archive, so naturally I got really excited when the Cosmere RPG was released, and have been looking over the rules and system since it was released. For my startup project, I wanted to make something that I would want to use, but that didn't currently exist in a form that I can easily access. So, for this project I am going to make an online character sheet, for me and my players to use. 
+I love role playing games, and I love the Stormlight archive, so naturally I got really excited when the Cosmere RPG was released, and have been looking over the rules and system since it was released. For my startup project, I wanted to make something that I would want to use, but that didn't currently exist in a form that I can easily access. So, for this project I am going to make a Cosmere RPG online character sheet, for me and my players to use. 
 
 ### Primary Goals
 I have several different stages of progress I would like to make, ordered in prioritized by what is most necessary to get a basic version working. In order I will:
