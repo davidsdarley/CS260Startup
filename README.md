@@ -45,9 +45,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 sequenceDiagram
     actor You
     actor Website
-    User->>Server: Login request
-    User<<-Server: Auth Token, List of viewable sheets
-    User->>Server: Auth Token, Sheet Request
+    User->>Server: Login request,
+    User<<-Server: Auth Token, List of viewable sheets,
+    User->>Server: Auth Token, Sheet Request,
     User<<-Server: Sheet object
 ```
 
