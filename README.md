@@ -43,14 +43,19 @@ The first and most essential goal is to make you able to access your character s
 ```mermaid
 sequenceDiagram
     actor You
-    actor Website
+    actor Sheet Tracker
     User->>Server: LoginRequest(Username, Password);
     Server->>User: AuthToken, List[viewable sheets];
     User->>Server: Auth Token, SheetRequest(sheet);
     Server->>User: Sheet
 ```
 Sheet modification, once you are logged in, will work almost completely on the side of the user using React, just checking your auth token before saving the changes when they are sent to the server.
-
+```mermaid
+sequenceDiagram
+    actor You
+    actor Sheet Tracker
+    User->>Server: EditRequest(authtoken, SheetObject);
+```
 
 ### Key features
 
