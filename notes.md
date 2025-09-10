@@ -2,19 +2,19 @@
 
 ## Startup project:
 ### Ideas
-      Game
-      news
-      peer chat
-      recipes
-      Scripture study app
-      Weather
-      Fitness tracking
-      KoY stuff
-      Dnd encounter tracker/spellbook or something like that
-      Some kind of Stormlight RPG thing
-            Skill tree tracker
-            Character sheet
-            level up manager
+ - Game
+ - news
+ - peer chat
+ - recipes
+ - Scripture study app
+ - Weather
+ - Fitness tracking
+ - KoY stuff
+ - Dnd encounter tracker/spellbook or something like that
+ - Some kind of Stormlight RPG thing
+   - Skill tree tracker
+   - Character sheet
+   - level up manager
 
 OK, so I’m not entirely sure what it is that I want to make happen here. So, we’re going to need to read through it and thing about what’s going to be hard to keep track of. 
 
