@@ -78,21 +78,21 @@ I am going to use the required technologies in the following ways.
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Server deployed and accessible with custom domain name** - [My server link](https://yourdomainnamehere.click).
+- [x] **Server deployed and accessible with custom domain name** - [My server link](https://yourdomainnamehere.click).
 
 ## 🚀 HTML deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - I made 4 separate HTML pages. One for the login screen, one for displaying the Character Sheet, one for Combat tracking, and the last just for referencing rules that you may want to see when you're in combat.
+- [x] **Proper HTML element usage** - Every one of my html files have the same header, footer, and nav sections, as I'm pretty sure all of them will benefit from having access to all of them. The Main and Body sections vary drastically in each, but they all exist!
+- [x] **Links** - there are links in the nav section that allow you to go to all of the other pages. I also have one or two others for providing images and such.
+- [x] **Text** - Oh there is so much text. I've been working on this part in codepen for a bit now, which led to a few extremely large commits.
+- [x] **3rd party API placeholder** - I want to have the combat tracker be able to play music. For now, I just have a broken youtube link that I added in to be completely replaced by api access at a later date.
+- [X] **Images** - I put in appropriate images in each of the sections. One will eventually hopefully be replaced by a file input.
+- [x] **Login placeholder** - my main page is my login page. Input boxes are placeholders
+- [x] **DB data placeholder** - The character sheet will rely heavily on database access to get the actual numbers. For now randomly chosen numbers have been put in until such a time as I get this set up.
+- [x] **WebSocket placeholder** - The combat tracker is intended to be communicating with everyone who has joined a particular combat. For now a single row has been placed to hold the spot for players as they join.
 
 ## 🚀 CSS deliverable
 
