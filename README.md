@@ -98,12 +98,12 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Header, footer, and main content body** - I did not complete this part of the deliverable.
-- [ ] **Navigation elements** - I did not complete this part of the deliverable.
-- [ ] **Responsive to window resizing** - I did not complete this part of the deliverable.
-- [ ] **Application elements** - I did not complete this part of the deliverable.
-- [ ] **Application text content** - I did not complete this part of the deliverable.
-- [ ] **Application images** - I did not complete this part of the deliverable.
+- [X] **Header, footer, and main content body** - I organized the header and nav bar to be visually appealing. CSS written in the main.css file as to be accessible by all pages easily. The header will remain fixed at the top of the page at all times, following you down as you scroll, and remaining visible above all the other items.
+- [x] **Navigation elements** - The nav bar is always found at the top left of the page. It takes up as much space as it needs, along with a small bit of padding, and no more. They are (in my opinion) visually appealing without drawing excess attention.
+- [X] **Responsive to window resizing** - This part had several issues, but most of the items in this page are spaced based on percentage, rather than px. They resize and adapt as necessary.
+- [x] **Application elements** - All my elements are visually appealing.
+- [x] **Application text content** - I wanted to put one of my images in the background for all the pages, so I developed a textbox class to make text still visible. I also used this to be able to format text to be visually appealing for all of the pages with minimal effort.
+- [x] **Application images** - One of my images I made the background for the site. The others I formatted to fit better in their respective pages. The character pic on the sheet page in particular I made sure to format so it would never be too large, and to remain centered regardless of size.
 
 ## 🚀 React part 1: Routing deliverable
 
