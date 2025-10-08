@@ -109,9 +109,9 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Bundled using Vite** - I did not complete this part of the deliverable.
-- [ ] **Components** - I did not complete this part of the deliverable.
-- [ ] **Router** - I did not complete this part of the deliverable.
+- [X] **Bundled using Vite** - After setting up and converting Simon I did all the same steps in my own project.
+- [X] **Components** - A component exists for each of the pages of my website.
+- [X] **Router** - Each component is accessible through the router in the app.jsx part of my program.
 
 ## 🚀 React part 2: Reactivity deliverable
 
