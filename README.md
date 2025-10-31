@@ -117,8 +117,8 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **All functionality implemented or mocked out** - I did not complete this part of the deliverable.
-- [ ] **Hooks** - I did not complete this part of the deliverable.
+- [X] **All functionality implemented or mocked out** - The only mocked out functionality is accessing objects from and storing them in a database. Everything else is completely functional.
+- [X] **Hooks** - Hooks all work.
 
 ## 🚀 Service deliverable
 
