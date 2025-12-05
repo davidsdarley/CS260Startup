@@ -142,8 +142,8 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Backend listens for WebSocket connection** - I did not complete this part of the deliverable.
-- [ ] **Frontend makes WebSocket connection** - I did not complete this part of the deliverable.
-- [ ] **Data sent over WebSocket connection** - I did not complete this part of the deliverable.
-- [ ] **WebSocket data displayed** - I did not complete this part of the deliverable.
-- [ ] **Application is fully functional** - I did not complete this part of the deliverable.
+- [x] **Backend listens for WebSocket connection** - webSocketStuff. I learned a TON playing with this
+- [x] **Frontend makes WebSocket connection** - Single socket opened in app.jsx and passed to the two places that needs it
+- [x] **Data sent over WebSocket connection** - this does happen
+- [x] **WebSocket data displayed** - combatTracker and a tiny bit in charSheet
+- [x] **Application is fully functional** - I want to do more but it is finished for now.
